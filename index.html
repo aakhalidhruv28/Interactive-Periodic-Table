@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Interactive Periodic Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Interactive Periodic Table</h1>
+        <p>Explore the building blocks of the universe.</p>
+    </div>
+
+    <div class="controls">
+        <div class="control-group">
+            <input type="text" id="search-box" placeholder="Search (e.g., Gold, Au, 79)">
+        </div>
+        <div class="control-group">
+            <label for="filter-category">Filter by Category:</label>
+            <select id="filter-category">
+                <option value="all">Show All</option>
+                <!-- Options will be added by JS -->
+            </select>
+        </div>
+        <div class="control-group temperature-control">
+            <label for="temp-slider">Temperature:</label>
+            <input type="range" id="temp-slider" min="0" max="6000" value="298">
+            <span id="temp-display">298 K</span>
+        </div>
+    </div>
+    
+    <div id="periodic-table-container">
+        <div id="periodic-table">
+            <div class="loading-spinner"></div>
+        </div>
+    </div>
+     <div class="key">
+        <p>* The Lanthanide series (57-71) and ** the Actinide series (89-103) are shown below for clarity.</p>
+    </div>
+
+    <!-- The Modal for Element Information -->
+    <div id="element-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <div id="modal-body">
+                <h2 id="element-name"></h2>
+                <div class="modal-grid">
+                    <div><strong>Symbol:</strong> <span id="element-symbol"></span></div>
+                    <div><strong>Atomic Number:</strong> <span id="element-number"></span></div>
+                    <div><strong>Atomic Mass:</strong> <span id="element-mass"></span></div>
+                    <div><strong>Category:</strong> <span id="element-category"></span></div>
+                    <div><strong>Phase (at STP):</strong> <span id="element-phase"></span></div>
+                    <div><strong>Density:</strong> <span id="element-density"></span></div>
+                    <div><strong>Melting Point:</strong> <span id="element-melt"></span></div>
+                    <div><strong>Boiling Point:</strong> <span id="element-boil"></span></div>
+                </div>
+                <h3>Summary</h3>
+                <p id="element-summary"></p>
+                <p><strong>Discovered by:</strong> <span id="element-discovered-by"></span></p>
+                <a id="element-wiki-link" href="#" target="_blank" rel="noopener noreferrer">Learn More on Wikipedia →</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
