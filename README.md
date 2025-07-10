@@ -2,7 +2,7 @@
 
 An advanced, feature-rich, and beautifully designed web-based periodic table of elements. This project provides an interactive and educational tool for exploring element properties, built entirely with modern vanilla HTML, CSS, and JavaScript.
 
-[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Here-blue?style=for-the-badge&logo=github)](https://your-username.github.io/your-repo-name/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-View_Here-blue?style=for-the-badge&logo=github)](https://aakhalidhruv28.github.io/Interactive-Periodic-Table/)
 
 ![Project Screenshot](./assets/screenshot.png)
 
@@ -12,7 +12,7 @@ This project goes beyond a simple table and includes a powerful set of interacti
 
 *   **Complete Element Data:** Displays all 118 elements with detailed information fetched dynamically from a public API.
 *   **Modern & Responsive UI:** A sleek, dark-themed design that is easy to use on both desktop and mobile devices.
-*   **Dynamic Data Loading:** Element data is loaded from the [Periodic-Table-JSON](https://github.com/Bowserinator/Periodic-Table-JSON) API, ensuring the information is up-to-date and the application is lightweight.
+*   **Dynamic Data Loading:** Element data is loaded from the [Periodic-Table-JSON](https://raw.githubusercontent.com/Bowserinator/Periodic-Table-JSON/master/PeriodicTableJSON.json) API, ensuring the information is up-to-date and the application is lightweight.
 *   **Interactive Search:** Instantly find elements by typing their name, symbol, or atomic number. Non-matching elements are dimmed for clarity.
 *   **Category Filtering:** Filter the table to highlight specific element groups (e.g., Noble Gases, Halogens) using a simple dropdown menu.
 *   **Temperature Slider:** A dynamic slider that allows you to change the ambient temperature (in Kelvin) and see the elements change their state (Solid, Liquid, Gas) in real-time.
@@ -47,11 +47,11 @@ You only need a modern web browser that supports HTML5, CSS3, and ES6 JavaScript
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/aakhalidhruv28/Interactive-Periodic-Table.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
-    cd your-repo-name
+    cd Interactive-Periodic-Table
     ```
 3.  **Open the `index.html` file:**
     Simply open the `index.html` file in your favorite web browser.
