@@ -4,7 +4,7 @@ An advanced, feature-rich, and beautifully designed web-based periodic table of 
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Here-blue?style=for-the-badge&logo=github)](https://aakhalidhruv28.github.io/Interactive-Periodic-Table/)
 
-![Project Screenshot](./Screenshot.png)
+![Project Screenshot](./Screenshot.png) 
 
 ## ✨ Features
 
