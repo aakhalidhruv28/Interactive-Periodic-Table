@@ -1,4 +1,4 @@
-# Advanced Interactive Periodic Table
+# Advanced Interactive Periodic Table 
 
 An advanced, feature-rich, and beautifully designed web-based periodic table of elements. This project provides an interactive and educational tool for exploring element properties, built entirely with modern vanilla HTML, CSS, and JavaScript.
 
